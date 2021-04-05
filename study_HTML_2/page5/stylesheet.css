@@ -18,8 +18,6 @@ a {
   background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
   background-size: cover;
   color: white;
-  /* Ubah nilai property text-align ke center */
-  text-align: center;
 }
 
 .top-wrapper h1 {
@@ -34,37 +32,41 @@ a {
   margin-bottom: 3px;
 }
 
+/* Tambahkan CSS untuk btn */
 .btn {
-  padding: 12px 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
   color: white;
   display: inline-block;
   opacity: 0.8;
-  /* Ubah nilai border-radius ke 4px */
-  border-radius: 4px;
 }
 
-/* Tambahkan CSS untuk btn pada saat ditunjuk */
-.btn:hover {
-  opacity: 1;
-}
-
+/* Tambahkan CSS untuk signup */
 .signup {
   background-color: #239b76;
 }
 
+/* Tambahkan CSS untuk facebook */
 .facebook {
   background-color: #3b5998;
   margin-right: 10px;
 }
 
+/* Tambahkan CSS untuk twitter */
 .twitter {
   background-color: #55acee;
 }
 
+/* Tambahkan CSS untuk btn-wrapper */
 .btn-wrapper {
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.btn-wrapper p {
-  margin: 10px 0;
+/* Tambahkan CSS untuk tag <p> didalam class btn-wrapper */
+.btn-wrapper p{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
